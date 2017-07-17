@@ -6,13 +6,13 @@
 //  Copyright © 2017 Zeus El Capitan. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "EVAWebViewController.h"
 
-@interface ViewController ()
+@interface EVAWebViewController ()
 
 @end
 
-@implementation ViewController
+@implementation EVAWebViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

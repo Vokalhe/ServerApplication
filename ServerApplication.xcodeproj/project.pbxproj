@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CC5BCDC6EF7520B3FDC362C /* libPods-ServerApplicationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D433CC88C9B4B1629AD325E9 /* libPods-ServerApplicationUITests.a */; };
+		2636DA57C05E8AC210546E3F /* libPods-ServerApplicationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 767F53CF8862707D6E34A73F /* libPods-ServerApplicationTests.a */; };
+		5093BFD523CC0B697ABAC06F /* libPods-ServerApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA537F1472BFBD9D1E8C1C61 /* libPods-ServerApplication.a */; };
+		8446A4551F18B59F00289B7C /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8446A4541F18B59F00289B7C /* dog.jpg */; };
+		8457A1051F14CB43003A0610 /* collapsed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8457A1031F14CB43003A0610 /* collapsed.png */; };
+		8457A1061F14CB43003A0610 /* expanded.png in Resources */ = {isa = PBXBuildFile; fileRef = 8457A1041F14CB43003A0610 /* expanded.png */; };
+		8457A1091F14FDB1003A0610 /* EVAVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8457A1081F14FDB1003A0610 /* EVAVideoViewController.m */; };
+		8457A10B1F1501EE003A0610 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8457A10A1F1501EE003A0610 /* AVFoundation.framework */; };
+		8457A10D1F150256003A0610 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8457A10C1F150256003A0610 /* AVKit.framework */; };
+		8457A1111F150966003A0610 /* EVAAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8457A1101F150966003A0610 /* EVAAudioViewController.m */; };
+		8457A1141F1511AD003A0610 /* EVAPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8457A1131F1511AD003A0610 /* EVAPDFViewController.m */; };
+		8457A1191F1516D8003A0610 /* EVAVisualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8457A1161F1516D8003A0610 /* EVAVisualizer.m */; };
+		8457A11A1F1516D8003A0610 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 8457A1181F1516D8003A0610 /* UIImage+Color.m */; };
+		847882501F178A6700E52CE7 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8478824F1F178A6700E52CE7 /* data.plist */; };
 		84E2494E1F1386D800B1440C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2494D1F1386D800B1440C /* main.m */; };
 		84E249511F1386D800B1440C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E249501F1386D800B1440C /* AppDelegate.m */; };
-		84E249541F1386D800B1440C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E249531F1386D800B1440C /* ViewController.m */; };
 		84E249571F1386D800B1440C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E249551F1386D800B1440C /* Main.storyboard */; };
 		84E249591F1386D800B1440C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E249581F1386D800B1440C /* Assets.xcassets */; };
 		84E2495C1F1386D800B1440C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E2495A1F1386D800B1440C /* LaunchScreen.storyboard */; };
 		84E249671F1386D900B1440C /* ServerApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E249661F1386D900B1440C /* ServerApplicationTests.m */; };
 		84E249721F1386D900B1440C /* ServerApplicationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E249711F1386D900B1440C /* ServerApplicationUITests.m */; };
+		84E249821F1388E700B1440C /* EVAServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E249811F1388E700B1440C /* EVAServerManager.m */; };
+		84E249851F13900D00B1440C /* EVAWebTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E249841F13900D00B1440C /* EVAWebTableViewController.m */; };
+		84E249891F13C40300B1440C /* EVAVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E249881F13C40300B1440C /* EVAVideo.m */; };
+		84E2498C1F13C41700B1440C /* EVAAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2498B1F13C41700B1440C /* EVAAudio.m */; };
+		84E2498F1F13C42700B1440C /* EVADocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2498E1F13C42700B1440C /* EVADocument.m */; };
+		84E249921F13C53A00B1440C /* ParentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E249911F13C53A00B1440C /* ParentObject.m */; };
+		84E249961F13CC3900B1440C /* EVATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E249951F13CC3900B1440C /* EVATableViewCell.m */; };
+		84E249991F13CC4900B1440C /* EVAHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E249981F13CC4900B1440C /* EVAHeaderTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +56,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		289CFF202BDB13B70703CBC5 /* Pods-ServerApplicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServerApplicationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ServerApplicationTests/Pods-ServerApplicationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		580A60D0BD0EC0C4536E0FE6 /* Pods-ServerApplicationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServerApplicationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ServerApplicationUITests/Pods-ServerApplicationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		70FE1A0B9F35BA486C06B6F8 /* Pods-ServerApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServerApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-ServerApplication/Pods-ServerApplication.release.xcconfig"; sourceTree = "<group>"; };
+		767F53CF8862707D6E34A73F /* libPods-ServerApplicationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ServerApplicationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8446A4541F18B59F00289B7C /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog.jpg; path = images/dog.jpg; sourceTree = "<group>"; };
+		8457A1031F14CB43003A0610 /* collapsed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = collapsed.png; path = images/collapsed.png; sourceTree = "<group>"; };
+		8457A1041F14CB43003A0610 /* expanded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = expanded.png; path = images/expanded.png; sourceTree = "<group>"; };
+		8457A1071F14FDB1003A0610 /* EVAVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAVideoViewController.h; sourceTree = "<group>"; };
+		8457A1081F14FDB1003A0610 /* EVAVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAVideoViewController.m; sourceTree = "<group>"; };
+		8457A10A1F1501EE003A0610 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8457A10C1F150256003A0610 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		8457A10F1F150966003A0610 /* EVAAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAAudioViewController.h; sourceTree = "<group>"; };
+		8457A1101F150966003A0610 /* EVAAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAAudioViewController.m; sourceTree = "<group>"; };
+		8457A1121F1511AD003A0610 /* EVAPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAPDFViewController.h; sourceTree = "<group>"; };
+		8457A1131F1511AD003A0610 /* EVAPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAPDFViewController.m; sourceTree = "<group>"; };
+		8457A1151F1516D8003A0610 /* EVAVisualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAVisualizer.h; sourceTree = "<group>"; };
+		8457A1161F1516D8003A0610 /* EVAVisualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAVisualizer.m; sourceTree = "<group>"; };
+		8457A1171F1516D8003A0610 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		8457A1181F1516D8003A0610 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		8478824F1F178A6700E52CE7 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		84E249491F1386D800B1440C /* ServerApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E2494D1F1386D800B1440C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84E2494F1F1386D800B1440C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84E249501F1386D800B1440C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84E249521F1386D800B1440C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84E249531F1386D800B1440C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84E249561F1386D800B1440C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84E249581F1386D800B1440C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E2495B1F1386D800B1440C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +90,27 @@
 		84E2496D1F1386D900B1440C /* ServerApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServerApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E249711F1386D900B1440C /* ServerApplicationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerApplicationUITests.m; sourceTree = "<group>"; };
 		84E249731F1386D900B1440C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E249801F1388E700B1440C /* EVAServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAServerManager.h; sourceTree = "<group>"; };
+		84E249811F1388E700B1440C /* EVAServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAServerManager.m; sourceTree = "<group>"; };
+		84E249831F13900D00B1440C /* EVAWebTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAWebTableViewController.h; sourceTree = "<group>"; };
+		84E249841F13900D00B1440C /* EVAWebTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAWebTableViewController.m; sourceTree = "<group>"; };
+		84E249871F13C40300B1440C /* EVAVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAVideo.h; sourceTree = "<group>"; };
+		84E249881F13C40300B1440C /* EVAVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAVideo.m; sourceTree = "<group>"; };
+		84E2498A1F13C41700B1440C /* EVAAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAAudio.h; sourceTree = "<group>"; };
+		84E2498B1F13C41700B1440C /* EVAAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAAudio.m; sourceTree = "<group>"; };
+		84E2498D1F13C42700B1440C /* EVADocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVADocument.h; sourceTree = "<group>"; };
+		84E2498E1F13C42700B1440C /* EVADocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVADocument.m; sourceTree = "<group>"; };
+		84E249901F13C53A00B1440C /* ParentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentObject.h; sourceTree = "<group>"; };
+		84E249911F13C53A00B1440C /* ParentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentObject.m; sourceTree = "<group>"; };
+		84E249941F13CC3900B1440C /* EVATableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVATableViewCell.h; sourceTree = "<group>"; };
+		84E249951F13CC3900B1440C /* EVATableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVATableViewCell.m; sourceTree = "<group>"; };
+		84E249971F13CC4900B1440C /* EVAHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAHeaderTableViewCell.h; sourceTree = "<group>"; };
+		84E249981F13CC4900B1440C /* EVAHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAHeaderTableViewCell.m; sourceTree = "<group>"; };
+		AB78876297A4033CE5078A12 /* Pods-ServerApplicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServerApplicationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ServerApplicationUITests/Pods-ServerApplicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C397A64695165EBD705171DB /* Pods-ServerApplicationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServerApplicationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ServerApplicationTests/Pods-ServerApplicationTests.release.xcconfig"; sourceTree = "<group>"; };
+		D433CC88C9B4B1629AD325E9 /* libPods-ServerApplicationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ServerApplicationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E119B435D9E72CEC223169C2 /* Pods-ServerApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServerApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ServerApplication/Pods-ServerApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		FA537F1472BFBD9D1E8C1C61 /* libPods-ServerApplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ServerApplication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +118,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8457A10D1F150256003A0610 /* AVKit.framework in Frameworks */,
+				8457A10B1F1501EE003A0610 /* AVFoundation.framework in Frameworks */,
+				5093BFD523CC0B697ABAC06F /* libPods-ServerApplication.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2636DA57C05E8AC210546E3F /* libPods-ServerApplicationTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +136,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC5BCDC6EF7520B3FDC362C /* libPods-ServerApplicationUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5581953162E2CE7E9C209F86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8457A10C1F150256003A0610 /* AVKit.framework */,
+				8457A10A1F1501EE003A0610 /* AVFoundation.framework */,
+				FA537F1472BFBD9D1E8C1C61 /* libPods-ServerApplication.a */,
+				767F53CF8862707D6E34A73F /* libPods-ServerApplicationTests.a */,
+				D433CC88C9B4B1629AD325E9 /* libPods-ServerApplicationUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59A5A8C6A20EEAA7F202FAF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E119B435D9E72CEC223169C2 /* Pods-ServerApplication.debug.xcconfig */,
+				70FE1A0B9F35BA486C06B6F8 /* Pods-ServerApplication.release.xcconfig */,
+				289CFF202BDB13B70703CBC5 /* Pods-ServerApplicationTests.debug.xcconfig */,
+				C397A64695165EBD705171DB /* Pods-ServerApplicationTests.release.xcconfig */,
+				AB78876297A4033CE5078A12 /* Pods-ServerApplicationUITests.debug.xcconfig */,
+				580A60D0BD0EC0C4536E0FE6 /* Pods-ServerApplicationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8457A1021F14CB31003A0610 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8446A4541F18B59F00289B7C /* dog.jpg */,
+				8457A1031F14CB43003A0610 /* collapsed.png */,
+				8457A1041F14CB43003A0610 /* expanded.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		8457A10E1F150943003A0610 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84E249831F13900D00B1440C /* EVAWebTableViewController.h */,
+				84E249841F13900D00B1440C /* EVAWebTableViewController.m */,
+				8457A1071F14FDB1003A0610 /* EVAVideoViewController.h */,
+				8457A1081F14FDB1003A0610 /* EVAVideoViewController.m */,
+				8457A10F1F150966003A0610 /* EVAAudioViewController.h */,
+				8457A1101F150966003A0610 /* EVAAudioViewController.m */,
+				8457A1121F1511AD003A0610 /* EVAPDFViewController.h */,
+				8457A1131F1511AD003A0610 /* EVAPDFViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8457A11B1F1516DC003A0610 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8457A1171F1516D8003A0610 /* UIImage+Color.h */,
+				8457A1181F1516D8003A0610 /* UIImage+Color.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		84E249401F1386D700B1440C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +209,8 @@
 				84E249651F1386D900B1440C /* ServerApplicationTests */,
 				84E249701F1386D900B1440C /* ServerApplicationUITests */,
 				84E2494A1F1386D800B1440C /* Products */,
+				59A5A8C6A20EEAA7F202FAF9 /* Pods */,
+				5581953162E2CE7E9C209F86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +227,19 @@
 		84E2494B1F1386D800B1440C /* ServerApplication */ = {
 			isa = PBXGroup;
 			children = (
+				8457A11B1F1516DC003A0610 /* Category */,
+				8457A10E1F150943003A0610 /* Controllers */,
+				8457A1021F14CB31003A0610 /* images */,
+				84E249931F13CC1700B1440C /* Cells */,
+				84E249861F13C3E200B1440C /* Models */,
+				84E2497F1F13887400B1440C /* API */,
 				84E2494F1F1386D800B1440C /* AppDelegate.h */,
 				84E249501F1386D800B1440C /* AppDelegate.m */,
-				84E249521F1386D800B1440C /* ViewController.h */,
-				84E249531F1386D800B1440C /* ViewController.m */,
 				84E249551F1386D800B1440C /* Main.storyboard */,
 				84E249581F1386D800B1440C /* Assets.xcassets */,
 				84E2495A1F1386D800B1440C /* LaunchScreen.storyboard */,
 				84E2495D1F1386D800B1440C /* Info.plist */,
+				8478824F1F178A6700E52CE7 /* data.plist */,
 				84E2494C1F1386D800B1440C /* Supporting Files */,
 			);
 			path = ServerApplication;
@@ -140,6 +271,43 @@
 			path = ServerApplicationUITests;
 			sourceTree = "<group>";
 		};
+		84E2497F1F13887400B1440C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				84E249801F1388E700B1440C /* EVAServerManager.h */,
+				84E249811F1388E700B1440C /* EVAServerManager.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		84E249861F13C3E200B1440C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8457A1151F1516D8003A0610 /* EVAVisualizer.h */,
+				8457A1161F1516D8003A0610 /* EVAVisualizer.m */,
+				84E249871F13C40300B1440C /* EVAVideo.h */,
+				84E249881F13C40300B1440C /* EVAVideo.m */,
+				84E2498A1F13C41700B1440C /* EVAAudio.h */,
+				84E2498B1F13C41700B1440C /* EVAAudio.m */,
+				84E2498D1F13C42700B1440C /* EVADocument.h */,
+				84E2498E1F13C42700B1440C /* EVADocument.m */,
+				84E249901F13C53A00B1440C /* ParentObject.h */,
+				84E249911F13C53A00B1440C /* ParentObject.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		84E249931F13CC1700B1440C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84E249941F13CC3900B1440C /* EVATableViewCell.h */,
+				84E249951F13CC3900B1440C /* EVATableViewCell.m */,
+				84E249971F13CC4900B1440C /* EVAHeaderTableViewCell.h */,
+				84E249981F13CC4900B1440C /* EVAHeaderTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +315,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E249761F1386D900B1440C /* Build configuration list for PBXNativeTarget "ServerApplication" */;
 			buildPhases = (
+				DA24C5DE89E8F05BE78F4C27 /* [CP] Check Pods Manifest.lock */,
 				84E249451F1386D700B1440C /* Sources */,
 				84E249461F1386D700B1440C /* Frameworks */,
 				84E249471F1386D700B1440C /* Resources */,
+				B49A4C06B9DE211C2295498E /* [CP] Embed Pods Frameworks */,
+				5F5FA759ED8F8D79F93877E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +335,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E249791F1386D900B1440C /* Build configuration list for PBXNativeTarget "ServerApplicationTests" */;
 			buildPhases = (
+				E432DBE60A4A1CB52E497E33 /* [CP] Check Pods Manifest.lock */,
 				84E2495E1F1386D900B1440C /* Sources */,
 				84E2495F1F1386D900B1440C /* Frameworks */,
 				84E249601F1386D900B1440C /* Resources */,
+				A0B4E6724E8F0F98628EF741 /* [CP] Embed Pods Frameworks */,
+				F6315DED4F75BDDCF102F9F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +356,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E2497C1F1386D900B1440C /* Build configuration list for PBXNativeTarget "ServerApplicationUITests" */;
 			buildPhases = (
+				371B0103870ABDA17513D293 /* [CP] Check Pods Manifest.lock */,
 				84E249691F1386D900B1440C /* Sources */,
 				84E2496A1F1386D900B1440C /* Frameworks */,
 				84E2496B1F1386D900B1440C /* Resources */,
+				B870A3C050D816A4E772E081 /* [CP] Embed Pods Frameworks */,
+				DF16B443D3D3429292703B98 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +423,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8446A4551F18B59F00289B7C /* dog.jpg in Resources */,
+				847882501F178A6700E52CE7 /* data.plist in Resources */,
+				8457A1061F14CB43003A0610 /* expanded.png in Resources */,
 				84E2495C1F1386D800B1440C /* LaunchScreen.storyboard in Resources */,
 				84E249591F1386D800B1440C /* Assets.xcassets in Resources */,
 				84E249571F1386D800B1440C /* Main.storyboard in Resources */,
+				8457A1051F14CB43003A0610 /* collapsed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +449,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		371B0103870ABDA17513D293 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F5FA759ED8F8D79F93877E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServerApplication/Pods-ServerApplication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B4E6724E8F0F98628EF741 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServerApplicationTests/Pods-ServerApplicationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B49A4C06B9DE211C2295498E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServerApplication/Pods-ServerApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B870A3C050D816A4E772E081 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServerApplicationUITests/Pods-ServerApplicationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA24C5DE89E8F05BE78F4C27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF16B443D3D3429292703B98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServerApplicationUITests/Pods-ServerApplicationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E432DBE60A4A1CB52E497E33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6315DED4F75BDDCF102F9F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServerApplicationTests/Pods-ServerApplicationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84E249451F1386D700B1440C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E249541F1386D800B1440C /* ViewController.m in Sources */,
 				84E249511F1386D800B1440C /* AppDelegate.m in Sources */,
+				84E249991F13CC4900B1440C /* EVAHeaderTableViewCell.m in Sources */,
+				84E2498C1F13C41700B1440C /* EVAAudio.m in Sources */,
+				8457A1141F1511AD003A0610 /* EVAPDFViewController.m in Sources */,
+				84E249921F13C53A00B1440C /* ParentObject.m in Sources */,
+				8457A1111F150966003A0610 /* EVAAudioViewController.m in Sources */,
+				8457A1091F14FDB1003A0610 /* EVAVideoViewController.m in Sources */,
 				84E2494E1F1386D800B1440C /* main.m in Sources */,
+				84E249821F1388E700B1440C /* EVAServerManager.m in Sources */,
+				84E249851F13900D00B1440C /* EVAWebTableViewController.m in Sources */,
+				84E249961F13CC3900B1440C /* EVATableViewCell.m in Sources */,
+				84E249891F13C40300B1440C /* EVAVideo.m in Sources */,
+				8457A11A1F1516D8003A0610 /* UIImage+Color.m in Sources */,
+				8457A1191F1516D8003A0610 /* EVAVisualizer.m in Sources */,
+				84E2498F1F13C42700B1440C /* EVADocument.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +753,7 @@
 		};
 		84E249771F1386D900B1440C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E119B435D9E72CEC223169C2 /* Pods-ServerApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ServerApplication/Info.plist;
@@ -433,6 +765,7 @@
 		};
 		84E249781F1386D900B1440C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70FE1A0B9F35BA486C06B6F8 /* Pods-ServerApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ServerApplication/Info.plist;
@@ -444,6 +777,7 @@
 		};
 		84E2497A1F1386D900B1440C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289CFF202BDB13B70703CBC5 /* Pods-ServerApplicationTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ServerApplicationTests/Info.plist;
@@ -456,6 +790,7 @@
 		};
 		84E2497B1F1386D900B1440C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C397A64695165EBD705171DB /* Pods-ServerApplicationTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ServerApplicationTests/Info.plist;
@@ -468,6 +803,7 @@
 		};
 		84E2497D1F1386D900B1440C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB78876297A4033CE5078A12 /* Pods-ServerApplicationUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ServerApplicationUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +815,7 @@
 		};
 		84E2497E1F1386D900B1440C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 580A60D0BD0EC0C4536E0FE6 /* Pods-ServerApplicationUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ServerApplicationUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +844,7 @@
 				84E249781F1386D900B1440C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E249791F1386D900B1440C /* Build configuration list for PBXNativeTarget "ServerApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +853,7 @@
 				84E2497B1F1386D900B1440C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E2497C1F1386D900B1440C /* Build configuration list for PBXNativeTarget "ServerApplicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +862,7 @@
 				84E2497E1F1386D900B1440C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
